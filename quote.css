@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato, sans-serif";
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(pexels-merlin-lightpainting-11167644.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   color: white;
+   
+
+}
+
+
+.container{
+    position: relative;
+    width:500px;
+    height: 480px;
+    color: white;
+    background-color: rgb(105, 7, 7);
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow:  3px 3px 10px red;
+
+}
+
+
+
+
+.main-content{
+width: 100%;
+height: 300px;
+background-color: rgb(107, 9, 9);
+border-radius: 15%;
+padding: 50px 40px;
+
+
+}
+
+
+span .quote{
+    margin-bottom: 3vh;
+}
+.main.content, .text-area{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-top: 35px;
+    font-style: italic;
+}
+
+.main.content, .person{
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.buttom-area{
+    background-color: rgb(37, 7, 7);
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+@media screen and (min-width:900px){
+.button-area {
+padding: 30px;
+width: 80vh;
+margin-left: 35vh;
+margin-top: 8vh;
+
+}
+
+button{
+    border-color: tomato;
+    padding: 10px;
+    background: tomato;
+}
+}
+
+
+    
+
+@media screen and (max-width:600px){
+
+
+.text-area{
+    font-size:18px ;
+line-height: 1.2;
+   
+}
+
+.button-area{
+ margin-bottom: 2vh;
+}
+
+
+
+
+button{
+    color: red;
+    height: 36px;
+    width: 70px;
+    background: tomato;
+    border-color: tomato;
+}
+
+
+header {
+    margin-top: 10vh;
+}
+
+
+}
